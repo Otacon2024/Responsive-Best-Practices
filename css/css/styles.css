@@ -84,7 +84,14 @@ a[href^="https"][href$=".com"] {
 
 /* Pseudo-element selectors */
 
+/* 
 article :first-child {
+    font-size: 140%;
+    font-style: italic;
+} 
+*/
+
+article :first-of-type {
     font-size: 140%;
     font-style: italic;
 }
