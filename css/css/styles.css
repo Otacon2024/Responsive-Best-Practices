@@ -41,3 +41,26 @@ a [href$="https"] {
 a[href^="https"][href$=".com"] {
     background-color: pink;
 }
+
+/* ------------------ */
+
+/* Relational Selector */
+#products p {
+    color: orange;
+}
+
+/* Adjacent Sibling Selector (the first paragraph) */
+#products > p {
+    color: orange;
+}
+
+/* It select the sibling that comes immediatrly after the "products" section */
+/* 
+#products + p {
+    color: lightslategray;
+} 
+*/
+
+#products ~ p {
+    color: lightslategray;
+}
