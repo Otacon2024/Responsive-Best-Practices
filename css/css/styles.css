@@ -91,7 +91,7 @@ article :first-child {
 } 
 */
 
-article :first-of-type {
+article p:first-of-type {
     font-size: 140%;
     font-style: italic;
 }
