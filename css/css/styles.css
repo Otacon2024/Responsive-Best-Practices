@@ -2,17 +2,20 @@ body {
     margin: 10px;
 }
 
+
 p {color: orange}
 
-/* .product{  
-} */
 
-/* selector using the attribute
+
+/* Selector using the attribute: 
+
 a[target] {
     color: red;
 }
 
+
 /* selector by key attribute + its value (more precise) */
+
 a[target="_blank"] {
     text-decoration: wavy;
     color: grey;
@@ -22,45 +25,66 @@ a[href="https://google.com"] {
     color:orange;
 }
 
+
 /* "href*" : INCLUDES "google" (ex: https://google.com) */
+
 a [href*="google"] {
     color: green;
 }
 
+
 /* "href*" : STARTS BY "https" (ex: https://google.com) */
+
 a [href^="https"] {
     color: green;
 }
 
+
 /* "href$" : ENDS BY "https" (ex: https://google.com) */
+
 a [href$="https"] {
     color: green;
 }
 
+
 /* "href^" : STARTS BY "https" AND ENDS BY ".com" (ex: https://google.com) */
+
 a[href^="https"][href$=".com"] {
     background-color: pink;
 }
 
-/* ------------------ */
 
-/* Relational Selector */
+/* Relational Selectors */
+
 #products p {
     color: orange;
 }
 
+
 /* Adjacent Sibling Selector (the first paragraph) */
+
 #products > p {
     color: orange;
 }
 
+
 /* It select the sibling that comes immediatrly after the "products" section */
-/* 
+/*
+
 #products + p {
     color: lightslategray;
 } 
 */
 
+
 #products ~ p {
     color: lightslategray;
+}
+
+
+/* Pseudo-element selectors */
+
+article :first-child {
+    font-size: 140%;
+    font-style: italic;
 }
