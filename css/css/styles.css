@@ -6,7 +6,6 @@ body {
 p {color: orange}
 
 
-
 /* Selector using the attribute: 
 
 a[target] {
@@ -79,19 +78,4 @@ a[href^="https"][href$=".com"] {
 
 #products ~ p {
     color: lightslategray;
-}
-
-
-/* Pseudo-element selectors */
-
-/* 
-article :first-child {
-    font-size: 140%;
-    font-style: italic;
-} 
-*/
-
-article p:first-of-type {
-    font-size: 140%;
-    font-style: italic;
 }

@@ -1,0 +1,60 @@
+
+/* Pseudo-element selectors */
+
+/* 
+article :first-child {
+    font-size: 140%;
+    font-style: italic;
+} 
+*/
+
+
+article p:first-of-type {
+    font-size: 140%;
+    font-style: italic;
+}
+
+
+article p:last-of-type {
+    font-weight: bold;
+}
+
+
+/* Same result as (here) as: */
+
+article p:last-child{
+    font-weight: bold;
+}
+
+
+/* Select items that are odd or even */
+
+ul li:nth-child(odd) {
+    color: deeppink;
+}
+
+ul li:nth-child(even) {
+    color: darkcyan;
+}
+
+/* select every 3rd item */
+ul li:nth-child(3n) {
+    background-color: lightskyblue;
+}
+
+
+/* select every links (visited, not visited, hover/focus, active) */
+
+a:visited,
+a:link {
+    color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+    color: blue;
+}
+
+a:active {
+    color:red;
+}
