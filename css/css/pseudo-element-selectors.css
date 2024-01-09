@@ -2,7 +2,35 @@ body {
     margin: 10px;
 }
 
+
 p::first-letter {
     font-size:140%;
     font-weight: bold;
+}
+
+
+p::first-line {
+    font-weight: bold;
+    background-color: greenyellow;
+}
+
+
+/* Any element that is selected */
+
+::selection {
+    background-color: pink;
+}
+
+
+/* Before paragraph */
+
+p::before {
+    content: "...-_-... ";
+    display: block;
+}
+
+p::after {
+    content: " ...^_T...";
+    background-color: rgb(255, 224, 183);
+    display: block;
 }
