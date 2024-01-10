@@ -1,0 +1,30 @@
+.box-a {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(230, 205, 16);
+}
+
+.box-b {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(230, 205, 16, 0.5);
+}
+
+/* the hexadecimal system is the more used because more compact */
+.box-c {
+    width: 200px;
+    height: 200px;
+    background-color: #e6cd10;
+}
+
+.box-d {
+    width: 300px;
+    height: 300px;
+    background-color: hsl(53, 100%, 40%);
+}
+
+.box-e {
+    width: 300px;
+    height: 300px;
+    background-color: hsla(53, 100%, 40%, 0.237);
+}
