@@ -1,5 +1,68 @@
+body {
+    margin: 10px;
+}
+
 .box-a {
     width: 200px;
     height: 200px;
     background: linear-gradient(dodgerblue, yellow);
+}
+
+.box-b {
+    margin: 10px 0;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom right, dodgerblue, yellow);
+}
+
+.box-c {
+    margin: 10px 0;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, yellow);
+}
+
+.box-c {
+    margin: 10px 0;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, pink 30%);
+}
+
+.box-d {
+    margin: 10px 0;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, pink 90%);
+}
+
+.box-e {
+    margin: 10px 0;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, pink, green);
+}
+
+.box-f {
+    margin: 10px 0;
+    width: 600px;
+    height: 200px;
+    background: radial-gradient(white, yellow);
+}
+
+.box-g {
+    margin: 10px 0;
+    width: 600px;
+    height: 200px;
+    background: radial-gradient(circle at top left, white, yellow);
+}
+
+.box-h {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient( 
+        32deg, 
+        rgba(115, 107, 231, 1) 0%, 
+        rgba(255, 107, 21, 1) 91%
+    );
 }
