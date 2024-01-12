@@ -1,0 +1,15 @@
+body {
+    margin: 10px;
+}
+
+.box-a {
+    width:200px;
+    height:200px;
+    background: dodgerblue;
+    box-shadow: 10px 10px grey;
+}
+
+h1 {
+   color: white;
+   box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
